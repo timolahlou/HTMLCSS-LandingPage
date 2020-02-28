@@ -43,43 +43,41 @@ section {
 
 .btn {
     cursor: pointer;
-    border: none;
-    padding-top: 6px;
-    padding-left: 12px ;
+    border: 0;
+    padding: 6px 12px ;
     border-radius: 3px;
     line-height: 1.4;
 }
 
 .btn-default {
-    color: white;
+    color: #ffffff;
     background-color: #faa541;
 }
 
 .btn-primary {
-    color: white;
+    color: #ffffff;
     background-color: #364147;
 }
 
 .form-control {
     display: block;
     padding: 6px 12px;
-    border-width: 1px;
-    border-color: #a0a0a0;
-    text-decoration-color: #8598a2;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
     line-height: 1.4;
 }
 
 .text-light {
     font-size: 30px;
-    lighting-color: #a0a0a0;
+    color: #a0a0a0;
 }
 
 .text-secondary {
     font-size: 30px;
-    lighting-color: #a0a0a0;
+    color: #a0a0a0;
 }
 
 .text-primary {
     font-size: 16px;
-    lighting-color: #364147;
+    color: #364147;
 }
